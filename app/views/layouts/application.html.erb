@@ -15,5 +15,11 @@
     <%= render"layouts/navbar" %>
       <%= yield %>
     </main>
+    <% if user_signed_in? %>
+      <a href="/">Home</a>
+      <%= link_to "Sign Out", destroy_user_session_path %>
+    <% else %>
+      <a href="/users/sign_in">Sign In</a>
+    <% end %>
   </body>
 </html>
