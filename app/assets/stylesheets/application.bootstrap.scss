@@ -1,0 +1,66 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 36px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-link {
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .nav-link:hover {
+    color: #222222;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-toggler {
+      padding-right: 0;
+    }
+  
+    .navbar-nav {
+      margin-top: 16px;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 16px;
+    }
+  
+    .navbar-nav .nav-item:last-child {
+      margin-bottom: 0;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    .navbar-collapse {
+      background-color: #ffffff;
+      padding: 16px
+  
+  
+  
