@@ -96,10 +96,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-<<<<<<< HEAD
-=======
-    diff-lcs (1.5.0)
->>>>>>> 4157ddc8985f4af9aadf09b27844de6037dc220c
     erubi (1.12.0)
     ffi (1.15.5)
     globalid (1.1.0)
@@ -144,11 +140,6 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2-x64-mingw-ucrt)
       racc (~> 1.4)
-<<<<<<< HEAD
-=======
-    nokogiri (1.14.2-x86-mingw32)
-      racc (~> 1.4)
->>>>>>> 4157ddc8985f4af9aadf09b27844de6037dc220c
     orm_adapter (0.5.0)
     public_suffix (5.0.1)
     puma (5.6.5)
