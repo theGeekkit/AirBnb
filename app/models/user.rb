@@ -9,4 +9,9 @@ def display_name
   user_name || email
 end
 
+def self.search(query)
+  where("name LIKE ?", "%#{query}%")
+end
+
+
 end

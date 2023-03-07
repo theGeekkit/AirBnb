@@ -1,0 +1,8 @@
+<h2>Users</h2>
+<% if @users.any? %>
+  <% @users.each do |user| %>
+    <%= link_to user.name, user_path(user) %>
+  <% end %>
+<% else %>
+  <p>No user results found.</p>
+<% end %>
